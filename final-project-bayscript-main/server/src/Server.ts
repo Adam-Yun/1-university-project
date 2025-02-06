@@ -3,8 +3,10 @@ import http from 'http';
 import { MessageHandler } from './MessageHandler';
 import { GetSongsHandler } from './handlers/GetSongsHandler';
 
+// const PORT = 3001;
 const PORT = 3001;
 const VALID_ORIGINS = ['http://localhost:3000'];
+// const VALID_ORIGINS = ['https://2b6b-175-209-149-13.ngrok-free.app'];
 const PING_TIMEOUT_MS = 10000;
 const PING_INTERVAL_MS = 10000;
 const WS_PATH = '/ws';
